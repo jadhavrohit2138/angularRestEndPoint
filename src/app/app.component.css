@@ -1,0 +1,106 @@
+/* CSS */
+.button-70,.button-71,.button-72,.button-73 {
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 16px 21px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-70{
+  background-color: #0078d0;
+
+}
+.button-71{
+  background-color: #00d02d;
+
+}
+.button-72{
+  background-color: #d0cd00;
+
+}
+.button-73{
+  background-color: #d00034;
+
+}
+
+.button-70:before,.button-71:before,.button-72:before,.button-73:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+
+.button-70:hover,.button-71:hover,.button-72:hover,.button-73:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .button-70,.button-71,.button-72,.button-73 {
+    padding: 16px 48px;
+  }
+}
+.component-01,.header-01 ,.note-01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.note-02{
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  position: absolute;
+  top: 10px;
+  right: 10px;
+      background-color: rgb(95, 102, 97);
+      border: none;
+      color: white;
+      padding: 12px 16px;
+      font-size: 16px;
+      cursor: pointer;
+}
+.header-01 {
+    padding: 10px;
+    text-align: center;
+    background: #1abc9c;
+    color: rgb(247, 247, 247);
+    font-size: 15px;
+  }
+
+  #content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - var(--ntp-one-google-bar-height));
+    min-width: fit-content;
+    padding-top: var(--ntp-one-google-bar-height);
+    position: relative;
+    z-index: 1;
+}
+.note-01{
+    background-color: #d30606;
+    color: #fff;
+    clear: both;
+    margin-top: 390px;
+
+}
+
